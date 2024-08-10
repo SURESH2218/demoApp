@@ -51,7 +51,6 @@ app.get("/", function (req, res) {
   // bcrypt.hash("", 10, function (err, hash) {
   //   console.log(hash);
   // });
-
   // bcrypt.compare(
   //   "suresh",
   //   "$2b$10$0EdYkbInoj46vrimfy7F1eurpfMZgaFrKNJSG/Hdsh2WdHjEa977G",
@@ -64,8 +63,7 @@ app.get("/", function (req, res) {
   // // console.log(token);
   // console.log(req.cookies);
   // const data = jwt.verify(req.cookies.token, "secret");
-  // console.log(data);
-
+  // // console.log(data);
   // res.send("hey");
 });
 
